@@ -1,0 +1,20 @@
+{
+  "name": "cinema-club-template",
+  "version": "0.0.1",
+  "authors": [
+    "Eugene Trofimovich <trofimovich.eugene@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}

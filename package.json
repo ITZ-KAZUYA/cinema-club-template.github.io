@@ -1,0 +1,16 @@
+{
+  "name": "cinema-club-template",
+  "version": "0.0.1",
+  "description": "HTML-Sass Layout for cinema-club project",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Eugene Trofimovich <trofimovich.eugene@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-util": "^3.0.7"
+  }
+}
