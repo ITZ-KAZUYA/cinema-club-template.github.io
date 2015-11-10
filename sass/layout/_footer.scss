@@ -1,0 +1,19 @@
+/* Footer Layout */
+
+.l-footer {
+	margin: 0;
+	padding: 2em 0;
+
+	border-top: 1px solid #E7E7E7;
+
+	color: $color-text;
+	background-color: $primary-color;
+
+	a {
+		color: $color-secondary-link;
+
+		&:hover {
+			color: $color-secondary-link-hover;
+		}
+	}
+}

@@ -6,9 +6,11 @@ var sassSources = [ "sass/style.scss" ];
 var sassWatchSources = [
 							"sass/*.scss",
 							"sass/base/*.scss",
+							"sass/fonts/*.scss",
 							"sass/layout/*.scss",
-							"sass/module/*.scss",
-							"sass/theme/*.scss"
+							"sass/modules/*.scss",
+							"sass/utilities/*.scss",
+							"sass/pages/*.scss"
 						]
 
 gulp.task("compass", function() {

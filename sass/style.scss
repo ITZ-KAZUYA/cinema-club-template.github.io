@@ -1,4 +1,36 @@
-@import "../vendor/bootstrap/dist/css/bootstrap.min.css";
-@import "../vendor/font-awesome/css/font-awesome.min.css";
+/* Compass */
+@import "compass";
 
+/* Bootstrap */
+@import "../vendor/bootstrap/dist/css/bootstrap.min.css";
+
+/* Utilites */
+@import "utilities/settings";
+@import "utilities/utilities";
+
+/* Base styles */
 @import "base/base";
+
+/* Fonts */
+@import "../vendor/font-awesome/css/font-awesome.min.css";
+@import "fonts/fonts";
+
+/* Layout styles */
+@import "layout/misc";
+@import "layout/header";
+@import "layout/footer";
+
+/* Modules (reusable components) styles */
+@import "modules/misc";
+@import "modules/labels";
+@import "modules/lists";
+
+/* Specific page styles */
+@import "pages/index";
+@import "pages/list";
+@import "pages/movie";
+@import "pages/actor";
+
+/* Theme styles */
+@import "theme/theme";
+

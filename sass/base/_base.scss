@@ -1,1 +1,67 @@
-/* Base Styles */
+/* General Styles */
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+html {
+	font-size: $base-font-size;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color-text;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3.375rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+	font-weight: bold;
+	margin-bottom: $baseline;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: .75rem;
+}
+
+h6 {
+	font-size: .444rem;
+}
+
+p {
+	margin-bottom: $baseline;
+	line-height: $baseline;
+}
+
+a {
+	text-decoration: none;
+	color: $color-primary-link;
+	&:hover {
+		color: $color-primary-link-hover;
+		text-decoration: underline;
+	}
+}

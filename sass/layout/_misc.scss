@@ -1,0 +1,26 @@
+.l-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.l-list-inline {
+	@extend .l-list;
+
+	li {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.l-list-col-3 {
+	li {
+		width: 33.3%;
+		padding-right: 1%;
+	}
+
+	li:last-of-type {
+		padding-right: 0;
+	}
+}

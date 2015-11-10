@@ -1,0 +1,29 @@
+/* Utilites */
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.align-left {
+	@include float-left;
+}
+
+.align-right {
+	@include float-right;
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+.rounded-borders {
+	@include border-radius($common-border-radius);
+}

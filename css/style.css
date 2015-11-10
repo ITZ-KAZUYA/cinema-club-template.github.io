@@ -1,3 +1,313 @@
+/* Compass */
+/* Bootstrap */
 @import url(../vendor/bootstrap/dist/css/bootstrap.min.css);
+/* Utilites */
+/* Settings */
+/* Typography */
+/* Colors */
+/* Misc */
+/* Utilites */
 @import url(../vendor/font-awesome/css/font-awesome.min.css);
-/* Base Styles */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.rounded-borders {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Base styles */
+/* General Styles */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: .75rem;
+}
+
+h6 {
+  font-size: .444rem;
+}
+
+p {
+  margin-bottom: 21px;
+  line-height: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #777;
+  text-decoration: underline;
+}
+
+/* Fonts */
+/* Fonts Import */
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+/* Layout styles */
+.l-list, .l-list-inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.l-list-inline li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.l-list-col-3 li {
+  width: 33.3%;
+  padding-right: 1%;
+}
+.l-list-col-3 li:last-of-type {
+  padding-right: 0;
+}
+
+/* Header Layout */
+/* Footer Layout */
+.l-footer {
+  margin: 0;
+  padding: 2em 0;
+  border-top: 1px solid #E7E7E7;
+  color: #333;
+  background-color: #E7E7E7;
+}
+.l-footer a {
+  color: #2382C9;
+}
+.l-footer a:hover {
+  color: #2382CA;
+}
+
+/* Modules (reusable components) styles */
+/* Other modules */
+.image-card img, .movie-card img, .movie-card-main img {
+  width: 100%;
+  margin-bottom: 1rem;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.image-card .card-title, .movie-card .card-title, .movie-card-main .card-title {
+  font: bold 16.8px/25.2px "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.image-card .card-subtitle, .movie-card .card-subtitle, .movie-card-main .card-subtitle {
+  font: italic 12.6px/18.9px "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-card, .movie-card-main {
+  margin-bottom: 3rem;
+}
+.movie-card .movie-title, .movie-card-main .movie-title, .movie-card .movie-rating, .movie-card-main .movie-rating {
+  margin: 0;
+  padding: 0;
+  font: 19.6px/29.4px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.movie-card-main img {
+  margin-bottom: 1rem;
+}
+.movie-card-main .movie-title, .movie-card-main .movie-rating {
+  font: 35px/52.5px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.movies-main-block > h2 {
+  font: bold 35px/52.5px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Styles for images block in movie and actor pages */
+.m-images-composite img {
+  width: 100%;
+  margin-bottom: 1rem;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.fa-heart-o:hover {
+  color: red;
+}
+
+/* Styles for movie list in the main page */
+.movie-list {
+  list-style-type: none;
+  margin-top: -1.5em;
+}
+.movie-list > li {
+  border-bottom: 1px solid #E7E7E7;
+  padding: 0;
+  margin: 0;
+}
+.movie-list > li h3 {
+  text-decoration: none;
+  font: 16.8px/25.2px "Open Sans", Helvetica, Arial, sans-serif;
+}
+.movie-list > li:last-of-type {
+  border-bottom: none;
+}
+.movie-list p {
+  font: italic normal 12.6px/18.9px "Open Sans", Helvetica, Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+.movie-list .movie-rating {
+  margin-top: 1.5rem;
+}
+.movie-list .movie-rating p {
+  font: 16.8px/25.2px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Styles for statistics for movies and actors */
+.m-stats-list {
+  font: 18.2px/27.3px "Open Sans", Helvetica, Arial, sans-serif;
+}
+.m-stats-list li {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 1em 0;
+  border-bottom: 1px solid #E7E7E7;
+}
+.m-stats-list li:last-of-type {
+  border-bottom: none;
+}
+.m-stats-list .stat-name {
+  text-transform: uppercase;
+  float: left;
+}
+.m-stats-list .stat-value {
+  float: right;
+}
+
+.m-cards-list {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.m-composite-list > li {
+  margin: 3em 0;
+}
+.m-composite-list h3 {
+  padding: 0 0 .5em 0;
+  margin: 0 0 .5em 0;
+  font: 28px/42px "Open Sans", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+/* Specific page styles */
+.main {
+  margin-top: 4.5rem;
+}
+.main .movies-main-block {
+  border-bottom: 2px solid #E7E7E7;
+}
+
+.list-page h2 {
+  font: bold 35px/52.5px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.movie-page .m-stats-list li:first-child {
+  padding-top: 0;
+}
+.movie-page .row {
+  margin-bottom: 1.5rem;
+}
+
+.actor-page .m-stats-list li:first-child {
+  padding-top: 0;
+}
+.actor-page .row {
+  margin-bottom: 1.5rem;
+}
+
+/* Theme styles */
